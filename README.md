@@ -1,6 +1,6 @@
 # CryptFolio
 
-A novel crypto currency portfolio tool that leverages unsupervised learning to create superior results.
+A novel crypto currency portfolio tool that leverages unsupervised machine learning to create superior results.
 
 ---
 
@@ -9,6 +9,8 @@ A novel crypto currency portfolio tool that leverages unsupervised learning to c
 * **Pandas**  - A python library with advanced financial analysis tools.
 * **Jupyter Lab** - An IDE used for visualization.
 * **anaconda** - A python framework consisting of several tools used in financial analysis, such as Pandas and Jupyter Lab.
+* **hvplot** - A set of Python visualization tools used to create compelling, and interactive visualizations.  
+* **sklearn** - An open-source Python library offers algorithms and models for building machine learning applications.
 
 ---
 
@@ -21,6 +23,12 @@ conda create -n <environment name> python=3.7 anaconda
 conda activate <environment name>
 ```
 **note:** remember to deactivate your environmnent when done with `conda deactivate`
+
+* ensure hvplot is installed in your conda environment
+```
+conda install hvplot
+```
+see [hvplot installation guide](https://github.com/conda-forge/hvplot-feedstock#:~:text=Installing%20hvplot%20from%20the%20conda-forge%20channel%20can%20be,has%20been%20enabled%2C%20hvplot%20can%20be%20installed%20with%3A) for more information.
 
 ### Start Jupyter Lab
 Once your conda virtural environment is started with all prerequisites, start Jupyter Lab:
